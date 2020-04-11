@@ -82,14 +82,14 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSudah SUBSCRIBE channel CLEO CYBER ? (Y/n) \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mJomblo apa sudah punya pacar? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSELAMAT DATANG  \033[1;92m" +nama+ "\n\033[1;97mselamat menggunakan Tools CLEO CYBER saya harap gunakan dengan Bijak dan Jangan di salah Gunakan !!")
+		jalan("\033[1;97mOkelah kalau  \033[1;92m" +nama+ "\n\033[1;97mselamat menggunakan Tools CLEO CYBER saya harap gunakan dengan Bijak dan Jangan di salah Gunakan !!")
 		time.sleep(1)
 		loginSC()
 
@@ -321,7 +321,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
-	print('\x1b[1;96m[!] \x1b[0;1mSabar om,orang sabar di sayang janda')
+	print('\x1b[1;96m[!] \x1b[0;1mSabar !! tunggu sambil minum kopi dan ghibah sama temen kamu  ')
 	print 42*"\033[1;96m="
 
 
